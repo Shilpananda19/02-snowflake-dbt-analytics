@@ -41,6 +41,8 @@ Analytics / BI
 ```
 
 ## Snowflake Layers
+
+```text
 DBT_ANALYTICS
 |
 +-- RAW
@@ -62,6 +64,7 @@ DBT_ANALYTICS
     +-- MARTS
         +-- CUSTOMER_ORDER_SUMMARY
         +-- PRODUCT_SALES_SUMMARY
+```
 
 ## Data Layers
 
@@ -159,21 +162,21 @@ dbt run --project-dir ./snowflake_dbt_project
 ```
 
 ## Technologies
-Snowflake
-dbt Core
-dbt Snowflake Adapter
-SQL
-Python
-Git / GitHub
+- Snowflake
+- dbt Core
+- dbt Snowflake Adapter
+- SQL
+- Python
+- Git / GitHub
 
 ## Key Concepts Demonstrated
-ELT architecture
-Layered data modeling
-dbt source()
-dbt ref()
-View vs table materialization
-Model dependencies
-Data quality testing
-Referential integrity
-Business-rule validation
-Analytical data marts
+- ELT architecture
+- Layered data modeling
+- dbt source()
+- dbt ref()
+- View vs table materialization
+- Model dependencies
+- Data quality testing
+- Referential integrity
+- Business-rule validation
+- Analytical data marts
