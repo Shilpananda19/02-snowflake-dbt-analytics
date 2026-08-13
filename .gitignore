@@ -1,0 +1,23 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment / secrets
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# dbt generated files
+logs/
+snowflake_dbt_project/target/
+snowflake_dbt_project/logs/
+snowflake_dbt_project/dbt_packages/
+
+# dbt credentials / secrets (stored in C:\Users\Shilpa Nanda\.dbt\profiles.yml)
+profiles.yml 

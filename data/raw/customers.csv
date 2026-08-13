@@ -1,0 +1,6 @@
+customer_id,customer_name,email,country,signup_date
+C001,Alice Johnson,alice@example.com,USA,2025-01-15
+C002,Bob Smith,bob@example.com,USA,2025-02-20
+C003,Carol Williams,carol@example.com,Canada,2025-03-10
+C004,David Brown,david@example.com,USA,2025-03-25
+C005,Eva Davis,eva@example.com,UK,2025-04-05
